@@ -15,9 +15,9 @@ Reviews of novels by these authors already in the A Good Review corpus were inte
 This repository contains the linguistic analyses of the reviews in LVC performed using the Profiling-UD tool http://linguistic-profiling.italianlp.it/
 The analyses on GoodReads and Amazon Books reviews are kept in separate files. 
 
-## File Description
+## Files Description
 
-Each file contains a linguistic analysis of book reviews published on Amazon Books or Goodreads. Every review is associated with a unique global identifier: a sequential number ranging from 1 to 6,600 for Goodreads reviews and from 1 to 4,602 for Amazon reviews. Additionally, each review is linked to the specific book it refers to, along with the book's identifier code, a review-specific ID that is unique within the set of reviews for that book, and the author of the reviewed book.
+Each tab-separated file contains a linguistic analysis of book reviews published on Amazon Books ('Amazon_reviews_linguistic_profiling.tsv') or Goodreads ('GoodReads_reviews_linguistic_profiling.tsv'). Every review is associated with a unique global identifier: a sequential number ranging from 1 to 6,600 for Goodreads reviews and from 1 to 4,602 for Amazon reviews. Additionally, each review is linked to the specific book it refers to, along with the book's identifier code, a review-specific ID that is unique within the set of reviews for that book, and the author of the reviewed book.
 
 For detailed information regarding the set of linguistic features extracted from each review, please refer to  Brunato D., Cimino A., Dell’Orletta F., Montemagni S., Venturi G. (2020) “Profiling-UD: a Tool for Linguistic Profiling of Texts”. In Proceedings of 12th Edition of International Conference on Language Resources and Evaluation (LREC 2020), 11-16 May, 2020, Marseille, France. 
 
